@@ -1,0 +1,23 @@
+{
+  "name": "soql-lib",
+  "version": "1.0.0",
+  "description": "SOQL Lib",
+  "homepage": "https://github.com/frpanicoVESFORCE/soql-lib#readme",
+  "bugs": {
+    "url": "https://github.com/frpanicoVESFORCE/soql-lib/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frpanicoVESFORCE/soql-lib.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
