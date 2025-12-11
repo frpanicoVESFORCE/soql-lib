@@ -3,14 +3,10 @@
     {
       "versionName": "SOQL Lib 6.6.0",
       "versionNumber": "6.6.0.NEXT",
-      "path": "force-app",
+      "path": "force-app\\main\\default\\classes\\standard-soql",
       "default": true,
       "package": "SOQL Lib",
       "versionDescription": ""
-    },
-    {
-      "path": "examples",
-      "default": false
     }
   ],
   "name": "soql-lib",
