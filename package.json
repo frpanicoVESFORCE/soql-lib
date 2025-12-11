@@ -18,6 +18,10 @@
     "example": "examples"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lib:updateFromUpstream": "git fetch upstream && git merge upstream/main --allow-unrelated-histories",
+    "lib:bump-version": "npm version --no-git-tag-version major",
+    "lib:deploy": "sf project deploy start --metadata ApexClass",
+    "lib:release": "npm run lib:bump-version && npm run lib:updateFromUpstream && npm run lib:deploy"
   }
 }
